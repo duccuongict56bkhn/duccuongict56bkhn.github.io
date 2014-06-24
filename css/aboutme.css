@@ -18,11 +18,13 @@ body {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	overflow: hidden;
 	min-height: 230px;
 	display: -webkit-box;
 	align-items: center;
 	-webkit-box-align: center;
+	-moz-box-align: center;
 }
 
 #mycv-banner {
@@ -37,6 +39,7 @@ body {
 	font-size: 16px;
 	transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
 	z-index: 2;
 }
 
@@ -142,6 +145,10 @@ body {
 	line-height: 1.5;
 	font-size: 15px;
 	margin-bottom: 40px;
+}
+
+#edu-list li {
+	margin-bottom: 18px;
 }
 
 section h1 {
